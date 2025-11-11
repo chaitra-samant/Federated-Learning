@@ -1,0 +1,5 @@
+Round 1: 0.9488
+Round 2: 0.8772
+Round 3: 0.8900
+Round 4: 0.9233
+Round 5: 0.9412

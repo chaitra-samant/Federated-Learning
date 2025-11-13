@@ -26,9 +26,10 @@ def get_client_loader(client_id, split, batch_size=16):
     dataset = ChestXRayDataset(client_id, split)
     return DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
-# test loader
+# test loader   
 if __name__ == '__main__':
     loader = get_client_loader(1, "train", batch_size=8)
     for imgs, labels in loader:
         print(imgs.shape, labels)
+
         break  # Only show one batch

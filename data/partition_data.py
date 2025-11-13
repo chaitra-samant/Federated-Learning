@@ -16,6 +16,7 @@ def get_all_samples():
     random.shuffle(samples)
     return samples
 
+
 def partition_and_split():
     samples = get_all_samples()
     partitions = [[] for _ in range(NUM_CLIENTS)]
@@ -31,4 +32,6 @@ def partition_and_split():
     print("Done partitioning and splitting!")
 
 if __name__ == '__main__':
+
     partition_and_split()
+

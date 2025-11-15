@@ -34,6 +34,8 @@ The result is a globally optimized model that benefits from diverse, distributed
 - **Real-World Medical Dataset**: Leverages the publicly available Chest X-Ray Pneumonia dataset (Kaggle) for authentic healthcare scenarios.
 - **Educational Baseline**: Provides clear, annotated code for researchers and practitioners learning federated learning, distributed systems, and privacy-preserving AI.
 - **Extensibility**: Foundation for integrating Differential Privacy, Secure Aggregation, and production deployment.
+- **Regulatory Compliance**: Architecture aligns with healthcare data protection regulations (HIPAA, GDPR) by design, facilitating deployment in clinical settings.
+- **Cross-Institutional Collaboration**: Enables multiple healthcare institutions to jointly train superior diagnostic models without compromising patient confidentiality or data governance policies.
 
 ## Dataset
 

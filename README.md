@@ -11,6 +11,12 @@ Decentralized deep learning for privacy-preserving medical imaging analysis usin
 
 This project demonstrates Federated Learning applied to chest X-ray classification, enabling multiple simulated hospitals (clients) to collaboratively train a Convolutional Neural Network (CNN) without sharing raw patient data. By implementing the Federated Averaging (FedAvg) algorithm and leveraging Message Passing Interface (MPI) for distributed communication, the project showcases how privacy-preserving machine learning can advance healthcare AI while maintaining strict data confidentiality. Built on the Chest X-Ray Pneumonia dataset, it serves as both an educational baseline and a foundation for production-grade federated systems.
 
+Federated learning enables the development of superior global models by aggregating insights from multiple clusters of local models, while preserving patient data privacy at the source.
+
+Below image shows the comparisons across various models:
+
+![Model Comparison](results/plots/model-comparison.png)
+
 ## Overview
 
 Healthcare institutions face critical barriers to collaborative AI development: patient data privacy regulations, data ownership concerns, and the practical challenges of centralizing sensitive medical information. This project addresses these challenges by implementing federated learning, where multiple institutions train a shared model locally on their data and only exchange model updates—never raw patient information.
@@ -34,6 +40,8 @@ The result is a globally optimized model that benefits from diverse, distributed
 - **Real-World Medical Dataset**: Leverages the publicly available Chest X-Ray Pneumonia dataset (Kaggle) for authentic healthcare scenarios.
 - **Educational Baseline**: Provides clear, annotated code for researchers and practitioners learning federated learning, distributed systems, and privacy-preserving AI.
 - **Extensibility**: Foundation for integrating Differential Privacy, Secure Aggregation, and production deployment.
+- **Regulatory Compliance**: Architecture aligns with healthcare data protection regulations (HIPAA, GDPR) by design, facilitating deployment in clinical settings.
+- **Cross-Institutional Collaboration**: Enables multiple healthcare institutions to jointly train superior diagnostic models without compromising patient confidentiality or data governance policies.
 
 ## Dataset
 
